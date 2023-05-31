@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+  font-family: 'Wix Madefor Display', sans-serif;
+  
+} 
+
+.container{
+    
+    -webkit-box-shadow: inset 97px -16px 189px 134px rgba(0,0,0,0.8);
+    -moz-box-shadow: inset 97px -16px 189px 134px rgba(0,0,0,0.8);
+    box-shadow: inset 97px -16px 189px 134px rgba(0,0,0,0.8);
+    background-image: url("./images/main.jpg");
+    background-size: cover; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  
+    
+} 
+
+#logo{
+    height: 50px;
+    
+}
+.navbar{
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.navbar img{
+    height: 50px;
+}
+.navbar span{
+      display: flex;
+      justify-content: space-between;
+}
+.lang-btn {
+    padding: 8px 30px;
+    background:none;
+    border-color: white;
+    color: white;
+    margin-right: 15px;
+    border-radius: 5px;
+
+}
+
+.sign-btn{
+    padding: 10px 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.text-area {
+    color: white;
+    height: 75vh;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: none;
+} 
+
+.text-area h1{
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+.text-area h2{
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.text-area p{
+    font-size: 22px;
+}
+
+.loginbox{
+    height: 100vh;
+}
+form input{
+    margin-top: 20px;
+    height: 50px;
+    width: 450px;
+    padding-left: 20px;
+    border-radius: 5px;
+    /* color: white; */
+    border: none;
+
+}
+
+form button {
+
+    height: 50px;
+    font-size: 20px;
+    width: 150px;
+    background-color: red;
+    color: white;
+    border-radius: 5%;
+    border: 50px;
+    margin-left: 10px
+} 
+
+
